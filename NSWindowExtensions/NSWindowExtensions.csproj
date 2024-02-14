@@ -4,11 +4,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <TargetFramework>net6.0-macos13.0</TargetFramework>
     <OutputType>Library</OutputType>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <SupportedOSPlatformVersion>10.11</SupportedOSPlatformVersion>
     <ProjectGuid>{4EA01908-1992-4309-8082-A0C7A16F87A9}</ProjectGuid>
-    <ProjectTypeGuids>{A3F8F2AB-B479-4A4A-A458-A89E7DC349F1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>NSWindowExtensions</RootNamespace>
     <AssemblyName>NSWindowExtensions</AssemblyName>

@@ -2,11 +2,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <TargetFramework>net6.0-macos13.0</TargetFramework>
+    <TargetFramework>net8.0-macos</TargetFramework>
     <OutputType>Library</OutputType>
     <Nullable>disable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
-    <SupportedOSPlatformVersion>10.11</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>10.15</SupportedOSPlatformVersion>
     <ProjectGuid>{4EA01908-1992-4309-8082-A0C7A16F87A9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>NSWindowExtensions</RootNamespace>
@@ -18,7 +18,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
+    <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug</OutputPath>
     <DefineConstants>DEBUG;</DefineConstants>
